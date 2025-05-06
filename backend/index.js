@@ -7,6 +7,7 @@ const connection = require("./db");
 // database connection
 connection();
 
+
 // middlewares
 app.use(express.json());
 app.use(cors());
